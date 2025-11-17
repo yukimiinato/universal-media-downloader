@@ -1,4 +1,4 @@
-# Universal Media Downloader v1.0
+# Universal Media Downloader v1.0.1
 
 A beautiful, feature-rich GUI application for downloading videos and audio from YouTube and other supported platforms.
 

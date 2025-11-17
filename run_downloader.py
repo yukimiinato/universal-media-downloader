@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Launcher script for the Universal Media Downloader v1.0
+Launcher script for the Universal Media Downloader v1.0.1
 This script launches the media downloader application from the media_downloader package.
 """
 
