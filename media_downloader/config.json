@@ -1,0 +1,27 @@
+{
+  "quality_map": {
+    "video_best": "bestvideo+bestaudio/best",
+    "video_1080p": "bestvideo[height<=1080]+bestaudio/best",
+    "video_720p": "bestvideo[height<=720]+bestaudio/best",
+    "video_480p": "bestvideo[height<=480]+bestaudio/best",
+    "audio_mp3": "bestaudio/best",
+    "audio_opus": "bestaudio/best"
+  },
+  "dpi_scaling": {
+    "base_window_width": 950,
+    "base_window_height": 800,
+    "screen_width_ratio": 0.85,
+    "window_font_sizes": {
+      "label": 9,
+      "title": 18,
+      "button": 9,
+      "button_primary": 11,
+      "monospace": 9
+    },
+    "padding": {
+      "base": 10,
+      "frame": 6,
+      "control": 3
+    }
+  }
+}

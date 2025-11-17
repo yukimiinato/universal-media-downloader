@@ -530,6 +530,16 @@ class MediaDownloaderApp:
         self.copy_errors_button = ttk.Button(error_log_frame, text="Copy All Failed URLs", command=self.copy_failed_urls, style='Accent.TButton')
         self.copy_errors_button.pack(fill='x')
         
+        # 3. Spotify Logger Tab
+        spotify_log_frame = ttk.Frame(self.notebook, padding="5")
+        self.notebook.add(spotify_log_frame, text="Spotify Downloader")
+
+        self.spotify_log_text = tk.Text(spotify_log_frame, height=10, bd=0, relief="flat", font=('Consolas', 9), wrap=tk.WORD)
+        self.spotify_log_text.pack(side="left", fill="both", expand=True)
+        spotify_scrollbar = ttk.Scrollbar(spotify_log_frame, command=self.spotify_log_text.yview)
+        spotify_scrollbar.pack(side="right", fill="y")
+        self.spotify_log_text['yscrollcommand'] = spotify_scrollbar.set
+        
     # --- Context Menu Functionality ---
     def create_context_menu(self, event):
         """Creates and displays the standard right-click context menu."""
